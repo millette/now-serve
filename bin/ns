@@ -49,7 +49,7 @@ const pkgDefaults = {
     start: flags.cmd || 'list ./content'
   },
   dependencies: {
-    'micro-list': 'https://github.com/millette/micro-list/tree/nodevlt6'
+    'micro-list': 'git://github.com/millette/micro-list.git#nodevlt6'
   }
 }
 
