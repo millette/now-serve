@@ -69,7 +69,7 @@ const pkgDefaults = {
   name: 'ns',
   version: '1.0.0',
   scripts: {
-    start: flags.cmd || 'list ./content'
+    start: flags.cmd || 'list --append-extension ./content'
   },
   dependencies: {
     'micro-list': 'git://github.com/millette/micro-list.git#nodevlt6'
